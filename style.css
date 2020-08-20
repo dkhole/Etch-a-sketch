@@ -52,7 +52,6 @@ input {
     cursor: pointer;
     box-shadow: 0px 8px 15px rgb(29,53,87);
     transition: all 0.3s ease 0s;
-    /*rgb(69,123,157)*/
 }
 
 input:hover {
@@ -69,8 +68,8 @@ input:hover {
 }
 
 #container {
-    height: var(--container-height); /*height is row x 30*/
-    width: var(--container-width); /*width is column x 30*/
+    height: var(--container-height); 
+    width: var(--container-width);
     margin: 200px auto;
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
