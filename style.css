@@ -17,24 +17,12 @@ body {
     text-align: center;
 }
 
-#title-left {
-    position: absolute;
-    transform: rotate(90deg);
-    top: 400px;
-    left: -170px;
-}
-
-#title-right {
-    position: absolute;
-    transform: rotate(-90deg);
-    bottom: 345px;
-    right: -170px;
-}
-
-.text {
+#title {
     font-size: 5rem;
     font-family: 'Lobster';
     color: rgb(0,173,181);
+    padding-top: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 input {
